@@ -49,14 +49,7 @@ public class PokeApiClient {
                 else{
                     selections += 0;
                 }
-                System.out.print("Would you like to see this Pokemons forms and evolutions? Y/N: ");
-                selection = scanner.nextLine().charAt(0);
-                if(Character.toString(selection).equalsIgnoreCase("y")) {
-                    selections += 1;
-                }
-                else{
-                    selections += 0;
-                }
+
                 System.out.print("Would you like to see this Pokemons moves? Y/N: ");
                 selection = scanner.nextLine().charAt(0);
                 if(Character.toString(selection).equalsIgnoreCase("y")) {
@@ -66,14 +59,6 @@ public class PokeApiClient {
                     selections += 0;
                 }
                 System.out.print("Would you like to see this Pokemons stats? Y/N: ");
-                selection = scanner.nextLine().charAt(0);
-                if(Character.toString(selection).equalsIgnoreCase("y")) {
-                    selections += 1;
-                }
-                else{
-                    selections += 0;
-                }
-                System.out.print("Would you like to see this Pokemons types? Y/N: ");
                 selection = scanner.nextLine().charAt(0);
                 if(Character.toString(selection).equalsIgnoreCase("y")) {
                     selections += 1;
